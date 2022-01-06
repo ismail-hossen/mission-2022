@@ -7,6 +7,10 @@ body{
 p{
     color: rgba(102, 94, 94, 0.829);
 }
+a{
+    text-decoration: none;
+    color: rgba(245, 225, 244, 0.932);
+}
 .focused-area{
     display: flex;
     text-align: justify;
@@ -25,14 +29,14 @@ p{
     height: 700px;
 }
 #focused-title{
-    font-size: 70px;
+    font-size: 75px;
     border-left: tomato solid 5px;
     border-radius: 4px;
     padding-left: 20px;
 }
 
 .comon-button{
-    color: white;
+    color: rgba(245, 225, 244, 0.932);
     background-color: tomato;
     padding: 20px 40px;
     border: none;
@@ -157,7 +161,7 @@ p{
 }
 
 footer{
-    background-color: rgba(125, 26, 238, 0.685);
+    background-color: rgba(150, 63, 248, 0.521);
     text-align: center;
     height: 200px;
     font-family: 'Josefin Sans', sans-serif;
@@ -165,4 +169,7 @@ footer{
 footer h1{
     padding-top: 50px;
     font-size: 50px;
+}
+#mission-2022{
+    color: rgba(248, 70, 174, 0.658);
 }
